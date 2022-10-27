@@ -1,6 +1,6 @@
 # Parallelepiped
 
-# What is this?
+* What is this?
 
 An application that allows you to calculate the hash function for files and strings !
 
