@@ -1,6 +1,6 @@
 # Parallelepiped
 
-* What is this?
+  __What is this?
 
 An application that allows you to calculate the hash function for files and strings !
 
@@ -11,7 +11,7 @@ The application currently has:
 
 Also, new hash functions will be added in the future !
 
-# How to use ?
+  __How to use ?
 
 SHA-1:
 1.Click the "open" button
