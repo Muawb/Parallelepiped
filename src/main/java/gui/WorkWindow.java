@@ -77,15 +77,15 @@ public class WorkWindow {
         place.add(start);
 
         sha1 = new CustomJButton("SHA-1", new Color(255,204,153),
-                120,50, new Font("TimesRoman", Font.BOLD, 18));
+                120,40, new Font("TimesRoman", Font.BOLD, 18));
         sha1.build();
 
         sha256 = new CustomJButton("SHA-256", new Color(255,204,153),
-                120,50, new Font("TimesRoman", Font.BOLD, 18));
+                120,40, new Font("TimesRoman", Font.BOLD, 18));
         sha256.build();
 
         md5 = new CustomJButton("MD5", new Color(255,204,153),
-                120,50, new Font("TimesRoman", Font.BOLD, 18));
+                120,40, new Font("TimesRoman", Font.BOLD, 18));
         md5.build();
 
         log.info("Adding components completed successfully !");
@@ -185,7 +185,7 @@ public class WorkWindow {
                         new Insets(50,0,0,0),0,0));
 
                 openFile = new CustomJButton("Открыть", new Color(255,204,153),
-                        120,50, new Font("TimesRoman", Font.BOLD, 18));
+                        120,40, new Font("TimesRoman", Font.BOLD, 18));
                 openFile.addActionListener(new EventOpenSHA(out));
                 openFile.build();
                 panelSha1.add(openFile, new GridBagConstraints(0,0,1,1,1,1,
@@ -193,7 +193,7 @@ public class WorkWindow {
                         new Insets(30,0,0,0),0,0));
 
                 exit = new CustomJButton("Назад", new Color(255,204,153),
-                        120,50, new Font("TimesRoman", Font.BOLD, 18));
+                        120,40, new Font("TimesRoman", Font.BOLD, 18));
                 exit.build();
                 exit.addActionListener(new EventExitSHA(placeWork, panelSha1));
                 panelSha1.add(exit, new GridBagConstraints(0,0,1,1,1,1,
@@ -222,7 +222,7 @@ public class WorkWindow {
                 frame.add(panelSha256);
 
                 exit = new CustomJButton("Назад", new Color(255,204,153),
-                        120,50, new Font("TimesRoman", Font.BOLD, 18));
+                        120,40, new Font("TimesRoman", Font.BOLD, 18));
                 exit.addActionListener(new EventExit(placeWork, panelSha256));
                 exit.build();
                 panelSha256.add(exit, new GridBagConstraints(0,0,1,1,1,1,
@@ -267,7 +267,7 @@ public class WorkWindow {
                 frame.add(panelMD);
 
                 exit = new CustomJButton("Назад", new Color(255,204,153),
-                        120,50, new Font("TimesRoman", Font.BOLD, 18));
+                        120,40, new Font("TimesRoman", Font.BOLD, 18));
                 exit.addActionListener(new EventExitMD(panelMD, placeWork));
                 exit.build();
                 panelMD.add(exit, new GridBagConstraints(0,0,1,1,1,1,
