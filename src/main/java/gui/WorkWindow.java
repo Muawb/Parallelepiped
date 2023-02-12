@@ -125,7 +125,7 @@ public class WorkWindow {
                     new Thread(() -> {
                         log.info("Stream " + Thread.currentThread() + " is running");
                         try (Sounds snd = new Sounds("/sound/future.mp3")) {
-                            //snd.play();
+                            snd.play();
                             log.info("Sound start !");
                         } catch (Exception ex) {
                             log.error("Failed to start the tune!");
@@ -174,7 +174,7 @@ public class WorkWindow {
                 placeWork.setVisible(false);
 
                 CustomJPanel panelSha1 = new CustomJPanel(new GridBagLayout(), new Color(255,255,255),
-                        250,170, 300,250);
+                        230,170, 300,250);
                 panelSha1.build();
                 frame.add(panelSha1);
 
@@ -217,7 +217,7 @@ public class WorkWindow {
                 placeWork.setVisible(false);
 
                 CustomJPanel panelSha256 = new CustomJPanel(new GridBagLayout(), new Color(255,255,255),
-                        250,170, 300,250);
+                        230,170, 300,250);
                 panelSha256.build();
                 frame.add(panelSha256);
 
@@ -262,7 +262,7 @@ public class WorkWindow {
                 placeWork.setVisible(false);
 
                 CustomJPanel panelMD = new CustomJPanel(new GridBagLayout(), new Color(255,255,255),
-                        250,170, 300,250);
+                        230,170, 300,250);
                 panelMD.build();
                 frame.add(panelMD);
 
